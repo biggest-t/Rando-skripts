@@ -13,7 +13,7 @@ while True:
 	os.system("clear")
 	current_dir = pth.cwd() 
 	new_dir = current_dir
-	print(f"your current path: {current_dir.name}")
+	print(f"your current directory: {current_dir.name}")
 	files = []
 	history.append(current_dir)
 
